@@ -1,0 +1,1099 @@
+---
+title: "Medicine"
+author: "Susmit"
+date: "`r Sys.Date()`"
+documentclass: memoir
+output: pdf_document
+fontsize: 12pt
+geometry: margin=2cm
+colorlinks: true
+linkcolor: blue
+urlcolor: red
+toccolor: gray
+---
+
+\openany
+\raggedbottom
+\twocoltocetc
+\tableofcontents
+
+\pagebreak
+
+# Respiratory medicine
+## Tuberculosis
+### Side effects of anti-TB drugs
+- **Isoniazid:**
+	- Hepatitis
+	- Rash
+	- B$_6$ deficiency $\rightarrow$ peripheral neuropathy (so pyridoxine
+	 supplement required during therapy)
+- **Rifampicin:**
+	- Hepatitis
+	- Rash
+- **Pyrazinamide:**
+	- Hepatitis
+	- Hyperuricaemia (rarely turns into gout)
+- **Ethambutol:**
+	- Retrobulbar neuritis (reversible)
+	- Arthralgia
+- **Streptomycin:**
+	- Ototoxicity (8th nerve palsy)
+	- Rash
+
+
+\pagebreak
+# Cardiology
+## Presenting problems in CVS disease
+### Features of benign murmur
+- Soft
+- Midsystolic
+- Heard at left sternal edge
+- No radiation
+- No other cardiac abnormalities
+
+## ECG
+### Anatomy of an ECG
+\includegraphics[width=0.7\textwidth]{../assets/ecg-anatomy.jpg}
+
+### Abnormalities of components
+#### Pathological Q
+- Depth > 2mm
+- Height > 1mm
+- Present in $\ge$ 2 leads
+- Assocd with loss of R height (Q > R/4; normally Q $\le$ R/4)
+- **Indicates _transmural_ myocardial necrosis**
+
+#### Segments vs intervals
+- e.g. ST segment = end of S $\rightarrow$ start of T
+- PR interval = start of P $\rightarrow$ start of R
+
+#### ST segment elevation
+- Normal: upto 1mm in limb leads, upto 2mm in chest leads
+- **Causes**
+	- **STEMI:** **convexity** upwards
+	- **Acute periCArditis:**: **conCAvity** upwards
+- **Indicates ongoing myocardial injury**
+
+### Myocardial infarction
+[A somewhat interesting physiological explanation on how the changes arise](
+	https://www.cvphysiology.com/CAD/CAD012
+)
+
+#### Sites of infarction based on lead
+- Septal: V$_1$, V$_2$
+- Anterior: V$_3$, V$_4$
+- Lateral: I, aVL, V$_5$, V$_6$
+- Extensive anterior: V$_1$-V$_6$
+- Anterolateral: I, aVL, V$_1$-V$_6$
+
+#### Reciprocal changes
+- Acute STEMI in some surface of the heart $\rightarrow$ ST elevation in
+ corresponding leads, and ST depression in reciprocal leads 
+ 
+\includegraphics[width=.7\textwidth]{../assets/reciprocal-leads.jpg}
+
+#### Basic pathophys of STEMI
+- Occurs due to proximal **complete occlusion of major coronary artery**
+
+\includegraphics[width=.5\textwidth]{../assets/STEMI.jpg}
+
+$$
+\begin{aligned}
+&\fbox{A. Before the onset of infarction}\\
+&\downarrow\\
+&\fbox{B. In acute phase, ST elevation}\\
+&\downarrow\\
+&\fbox{C. Progressive loss of R and deepening Q}\\
+&\downarrow\\
+&\fbox{D. Resolution of ST elevation; fully developed pathological Q;
+T inversion}\\
+&\downarrow\\
+&\fbox{E. In old infarcts, T-wave inversion may or may not persist}\\
+\end{aligned}
+$$
+
+- ST elevation resolves after a few days
+
+\pagebreak
+
+#### NSTEMI
+- **Partial occlusion of major** or **complete occlusion of minor** coronary
+ artery
+- _Subendocardial/partial-thickness MI_ $\rightarrow$ **no pathological Q**
+- **ST depression** + **T inversion** in chest leads
+
+## Coronary Artery Disease
+- Diseases arising due to narrowing of the lumen of one or more coronary
+ arteries and the resulting ischaemia/infarction of the myocardium or
+ the conductive system.
+- **Types**:
+	 - Stable angina: Fixed atheromatous stenosis
+	 - Unstable angina:
+	 	- dynamic obstruction
+	 	- due to plaque rupture/erosion with thrombosis
+	 - MI
+	 - Heart failure
+	 - Arrhythmia
+	 - Sudden cardiac death
+	 	- ventricular arrhythmia
+	 	- asystole
+	 	- massive MI
+
+## Arrhythmias
+### Classification according to ECG morphology
+- **Narrow complex**: QRS < 120ms (3 small sqs)
+	- Sinus tachycardia
+	- Atrial fibrillation (irregular narrow complex tachycardia)
+	- Atrial flutter
+	- AV Nodal Re-entry Tachycardia (AVNRT aka SVT)
+
+- **Broad complex**: QRS > 120ms (3 small sqs)
+	- Ventricular tachycardia
+	- AV Re-entry Tachycardia (AVRT e.g. Wolff-Parkinson-White syndrome)
+		- Abnormal band of conductive tissue connecting atria and ventricles
+		 (accessory pathway)
+
+### Management of SVT
+- Carotid sinus massage or
+- Valsalva manoeuvre
+- If the manoeuvre fails,
+	- Adenosine (3-12mg IV) or
+	- Rate-limiting CCB (Verapamil 5mg IV) or
+	- $\beta$-blocker
+- If haemodynamic state compromised, DC cardioversion
+- Recurrent SVT $\rightarrow$ catheter ablation
+
+## Atrial fibrillation
+### Causes
+- **Cardiac**
+	- CAD (including acute MI)
+	- Mitral stenosis (MS; rheumatic mitral valve disease)
+	- Hypertension
+	- Cardiomyopathy
+- **Non-cardiac**
+	- Thyrotoxicosis
+	- Pulmonary embolism
+	- Pneumonia
+	- Alcoholism
+
+### Investigations
+- ECG
+- Echo: to see valvular condition
+- Thyroid function test: to exclude thyrotoxicosis
+
+### Management of AF
+- **Rhythm control**:
+	- Pharmacological cardioversion
+		- Pt stable + no history of heart disease $\rightarrow$ IV flecainide
+		- Structural / ischaemic heart disease $\rightarrow$ IV amiodarone
+	- DC cardioversion if drugs fail
+- **Rate control**
+	- $\beta$-blockers
+	- Digoxin
+	- Rate-limiting CCB: verapamil / diltiazem
+- **Thromboprophylaxis:**
+	- Oral Warfarin
+	- Target INR: 2.0-3.0
+	- Reduces risk of stroke by $\frac{2}{3}$
+	- Start 4wks before cardioversion, continue till 3mo after successful
+	 cardioversion
+
+\pagebreak
+
+## Myocardial Infarction
+
+### Management of acute MI
+\includegraphics[width=.7\textwidth]{../assets/MI-mx.png}
+
+\pagebreak
+
+# Dermatology
+## Anatomy and physiology
+- Layers of skin:
+	- Epidermis: further layered into (from out$\rightarrow$in)
+		- corneum
+		- lucidum
+		- granulosum
+		- spinosum
+		- basale
+	- Dermis: contains
+		- blood vessels
+		- nerves
+		- pilosebaceous units (hair follicle + sebaceous gland)
+	- Subcutis: adipose
+
+### Epidermal appendages
+- Hair follicles:
+	- phases of growth
+		- anagen: 
+			- active growth
+			- lasts years in scalp hairs
+		- catagen: 
+			- transitional
+			- lasts days (in scalp)
+		- telogen: 
+			- resting
+			- lasts months (in scalp)
+- Sebaceous glands
+	- usually _associated with a hair follicle_
+	- $\fbox{androgens}\rightarrow$ **$\uparrow$** $\fbox{sebum}$
+	- $\fbox{oestrogen}\rightarrow$ **$\downarrow$** $\fbox{sebum}$
+- Sweat glands
+	- innerved by _sympathetic cholinergic_ fibres
+
+## Principles of management of skin disease
+### Topical treatments
+- Ointments vs Creams
+	- Ointments preferred to creams for dry skin (e.g. chronic eczema) as
+		- more hydrating
+			- 80% oil + 20% water in ointments (vs 50-50 for creams) $\rightarrow$
+		 	prevent water loss from skin by oil layer
+		- less preservatives $\rightarrow$ less risk of allergy
+- Emollients
+	- Moisturise, lubricate, protect skin
+	- _Vehicles without active drug_
+- Gluocorticoids
+
+### Phototherapy
+- **UVB**
+- **Psoralen UVA**
+	- Psoralen:
+		- natural photosensitiser from plant source
+		- cross-link DNA strands on excitation with UVA
+	- Cumulative exposure to PUVA $\rightarrow\;\;\uparrow$
+	 risk of SCC, so reserved for UVB resistance
+- Uses
+	- Psoriasis
+	- Atopic eczema
+	- Vitiligo
+	- Chronic urticaria
+
+### Systemics
+- Antihistamines
+- **Retinoids**
+	- _Anti-inflammatory_
+	- Promote _differentiation of skin cells_
+	- **Teratogenic**
+		- must be prescribed with robust contraception
+		- females must have negative pregnancy test before, during, and after
+		 therapy
+- **Immunosuppressants**
+	- Glucocorticoids e.g. prednisolone
+	- Methotrexate
+	- Azathioprine
+
+### Biologics
+- Biological _inhibitors_ of _proinflammatory cytokines_
+- **TNF-$\alpha$ inhibitors**
+	- Infliximab
+	- Etanercept
+- **Interleukin inhibitors**
+	- Ustekinumab: IL-12, 23
+	- Guselkumab: IL-23
+	- Secukinumab: IL-17
+- _Rituximab_:
+	- Binds to CD20 $\rightarrow$ cause ADCC of B cells
+	- As terminally differentiated plasma cells don't have CD20 they're safe
+	- Use: pemphigus vulgaris
+
+### Non-surgical therapy
+- **Cryo**
+	- _Liquid N$_2$_
+	- Causes cell membrane destruction $\rightarrow$ death
+- Laser
+- PDT / photodynamic therapy
+
+## Skin cancers
+### Classification
+- Non-melanoma skin cancer (NMSC): most common
+	- SCC
+	- BCC
+- Melanoma
+	- Less common
+	- More metastatic risk $\rightarrow$ cause of most skin cancer deaths
+
+
+## Fungal infections
+### Types
+- Superficial
+	- Dermatophytes: aka **ringworm / tineasis**
+		- _Trichophyton_
+		- _Epidermophyton_
+		- _Microsporum_
+			
+	- Yeast
+- Deep: less common
+	- Chromomycosis
+	- Sporotrichosis
+
+## Scabies
+### Agent
+Caused by the mite _Sarcoptis scabies hominis_
+
+### Diagnosis
+- Identify the skin burrow 
+- Visualize the mite by dermatoscope / extracting with a needle
+
+### Treatment
+- Affected + all asymptomatic family members / physical contacts
+- Topical permethrin / malathion
+	- 2 applications
+	- 1 wk apart
+	- Whole body, except head
+- Oral Ivermectin:
+	- Single dose
+	- For poor adherence, immunosuppresion or heavy infestation
+
+
+## Acne
+- _Chronic inflammation_ of _pilosebaceous_ units
+
+### Pathogenesis
+Key components are:
+
+- $\uparrow$ Sebum production
+- Colonisation of pilosebaceous ducts by _Propionibacterium acnes_
+- Occlusion of pilosebaceous ducts
+
+### Features
+- Hallmark: **comedone**
+- Greasiness of skin
+
+### Management
+- **Mild disease**
+	- Topical Benzoyl peroxide
+	- Topical Retinoids
+	- Topical antibiotics
+		- Erythromycin
+		- Clindamycin
+- **Moderate disease**: topical _plus_
+	- Systemic tetracycline
+	- Oestrogen containing OCP
+	- Isotretinoin: if inadequate response to topical+systemic therapy
+	 for 6 months
+- **Severe disease**
+	- Isotretinoin 0.5-1 mg/kg for 4 months:
+		- Reduce sebum secretion and follicle colonisation
+		- Teratogen
+		- Pregnancy must be avoided during treatment _and_ within 2 mo of
+		 drug cessation
+	- Systemic glucocorticoid (with isotretinoin)
+	- If unable to use isotretinoin
+		- UVB phototherapy
+		- PDT
+
+\pagebreak
+
+## Eczemas
+- Seborrhoeic dermatitis is associated with _Malassezia_ yeasts
+
+### Features
+Most types have the following clinical features:
+
+#### Acute
+- Ill-defined erythema, oedema
+- Papules, vesicles, bullae
+- Exudation
+- Scaling
+
+#### Chronic
+- Above features
+- Lichenification
+	- Skin thickening with pronounced skin markings, 2$^\circ$ to chronic
+	 scratching
+	- Fissures
+	- Dyspigmentation
+
+### Management of eczema
+\includegraphics[width=.8\textwidth]{../assets/eczema.jpg}
+
+
+\pagebreak
+
+## Psoriasis
+- Chronic inflammatory hyperproliferative skin disease
+- **Characteristics**
+	- **Well-defined erythematous scaly plaques**
+	- Affecting **extensor surfaces, scalp, nails**
+
+### Histological features
+- Keratinocyte hyperproliferation + abnormal differentiation $\rightarrow$
+ nucleated stratum corneum cells (transit time from basale to corneum reduced
+ to 5 from 28 $\rightarrow$ keratinocytes reach the surface while immature)
+- Inflammation with Th-1 and Th-17 infiltration
+- Tortuosity of dermal capillaries and release of VEGF
+
+### Exacerbating factors
+- **Sunlight**
+- **Trauma**
+- **Infection**
+	- $\beta$-haemolytic strep $\uparrow$ guttate psoriasis
+	- HIV may initally present with severe psoriasis
+- **Drugs**
+	- Antimalarials
+	- $\beta$-blockers
+	- Lithium
+	- NSAIDs
+- **Stress and anxiety**
+
+### Clinical types
+- **Plaque** psoriasis:
+	- most common
+	- well-demarcated erythematous plaques
+	- silver-white scales in untreated
+		- bleed on scraping (due to dilated vessels underneath) $\rightarrow$
+		 **Auspitz sign**
+	- **Sites**
+		- extensor surfaces
+			- elbows
+			- knees
+			- lower back
+		- scalp
+		- nails
+- **Guttate** psoriasis:
+	- follows _Strep_ throat
+	- common in children/adolescent
+	- UVB highly effective
+	- may herald the onset of plaque psoriasis in adulthood
+- **Erythrodermic** sporiasis: generalised $\rightarrow$ medical emergency
+- **Pustular** psoriasis
+
+### Management of psoriasis
+\includegraphics[width=.85\textwidth]{../assets/psoriasis.jpg}
+
+### Complications
+- Psoriatic arthropathy
+- Exfoliative dermatitis
+- Secondary infection
+- Hyperuricaemia and gout
+
+\pagebreak
+## Hypopigmentation
+### Causes
+- Vitiligo
+- Albinism
+- Pityriasis alba
+- Pityriasis versicolor
+
+### Vitiligo
+- **Acquired**
+- Cell-mediated **autoimmune destruction of melanocytes**
+- Loss of melanocytes $\rightarrow$ hypopigmented patches
+
+### Albinism
+- **Autosomal recessive**
+- **Reduced melanin production** by **normal number of melanocytes**
+- $\uparrow\uparrow$ risk of sunburn, skin cancer
+
+## Hyperpigmentation
+### Causes
+- **Endocrine**
+	- Melasma/chloasma:
+		- in pregnancy / some OCP users
+		- discrete patches of facial pigmentation
+	- Addison's disease
+	- Cushing's syndrome
+	- Nelson's syndrome
+		- hyper-ACTH 2$^\circ$ to bilateral adrenalectomy for Cushing's
+		- due to loss of -ve feedback from plasma cortisol
+	- CKD
+- **Drugs**
+	- Amiodarone
+	- Anti-cancers:
+		- Bleomycin: Hodgkin's
+		- Busulfan: CML
+	- Choroquine
+	- Psoralens
+
+
+## Pseudorandom factoids
+### SPF (sun protection factor)
+- $\frac{\LARGE{\text{UV dose for producing erythema with sunscreen}}}
+{\LARGE{\text{UV dose for producing erythema without sunscreen}}}$
+
+### Mechanism of venous ulceration
+\begin{center}
+\fbox{Incompetent valves} \\
+$\downarrow$ \\
+\fbox{$\uparrow$ capillary pressure} \\
+$\downarrow$ \\
+\fbox{Fibrinogen leaks out of capillary} \\
+$\downarrow$ \\
+\fbox{Forms fibrin clot around capillary (pericapillary cuffing)} \\
+$\downarrow$ \\
+\fbox{Impaired diffusion from capillaries} \\
+$\downarrow$ \\
+\fbox{Impaired oxygenation}
+\end{center}
+
+
+\pagebreak
+
+# Nephrology
+## UTI
+### Definition
+Presence of > 10$^5$ organisms/mL in a mid-stream sample of urine.
+
+### Features
+- **LUTI**: cystitis/urethritis
+	- Frequency
+	- Urgency
+	- Dysuria (burning urethral pain during micturition)
+	- Haematuria
+	- Strangury (intense desire to pass more urine after voiding, due to
+	 spasm of inflamed bladder wall)
+- **UUTI**: acute pyelonephritis
+	- Fever with chills and rigor
+	- Vomiting
+	- Loin pain
+	- Renal angle tenderness
+
+### Commonly involved pathogens
+- _E. coli_: 75%
+- _Proteus_
+- _Pseudomonas_
+- _Streptococci_
+- _Staph. epidermidis_
+
+
+### Investigations
+- Dipstick test for nitrites, leucocyte esterase, and glucose
+	- Most urinary pathogens (e.g. _E. coli, Proteus_ etc) reduce nitrate to
+	 nitrite
+	- UTI $\rightarrow$ Neutrophils in urine $\rightarrow$ leucocyte esterase
+- Microscopy for WBC and organisms
+- Urine culture
+
+### Treatment
+#### Cystitis
+- **1st choice**
+	- **Trimethoprim** (200mg bds 3 days)
+	- **Nitrofurantoin** (50mg qds 3 days)
+- **Pregnancy**
+	- Nitrofurantoin (50mg qds 7 days)
+	- Cefalexin (250mg qds 7 days)
+- Avoid trimethoprim during pregnancy, and nitrofurantoin at term
+
+#### Pyelonephritis
+- **1st choice**
+	- **Cefalexin** (1g qds 14 days)
+	- **Ciprofloxacin** (500mg bds 7 days)
+- Hospitalise if no response within 24h
+
+#### Epididymo-orchitis
+- _1st choice_: Ciprofloxacin
+
+#### Acute prostatitis
+- _1st choice_: Trimethoprim
+
+### Prophylactic measures in women with recurrent UTI
+- Fluid intake $\ge$ 2L/day
+- Regular complete bladder evacuation
+- Emptying the bladder before and after intercourse
+- Good personal hygiene
+- Continuous prophylactic trimethoprim (100mg) and nitrofurantoin (50 mg) at
+ night
+
+\pagebreak
+
+# Rheumatology
+## Investigations of musculoskeletal disease
+### Joint fluid aspiration
+- Normal:
+	- Amount small
+	- Viscosity high
+	- Colourless / pale yellow
+- Inflammation:
+	- Amount raised
+	- Viscosity lowered (due to enzymatic degradation of hyaluronan & aggrecan)
+	- Turbid (due to neutrophils)
+- Crystal-induced arthropathies
+	- Crystals seen by polarised light microscopy
+	- Urate crystals $\rightarrow$ long, needle shaped, -ve birefringence
+	- Ca pyrophosphate crystals $\rightarrow$ small, rhomboid, +ve
+	 birefringence
+### Bone scintigraphy
+- Dx of metastatic bone disease and Paget's
+- $^99$Tc radiolabelled bisphosphonate used
+
+### DEXA (Dual Emission X-ray Absorptiometry)
+- Measure BMD (bone mineral density)
+	- < -2.5 $\rightarrow$ osteoporosis
+	- Between -2.5 and -1 $\rightarrow$ osteopoenia
+	- \> 2.5 $\rightarrow$ high bone mass (most common cause osteoarthritis)
+
+### Immunology
+- **RF**
+	- Antibody to Fc fragment of human Ig
+	- 70% sensitive for RA (if nodules & extra-articular manifestations
+	 then 100% sensitive); specificity poor
+	- **RF +ve diseases**
+		- Rheumatoid arthritis
+		- Sjogren's syndrome
+		- SLE
+		- Old age (> 65)
+- **ACPA**
+	- Antibody to peptides in which arginine has been converted to citrulline
+	 by peptidylarginine deiminase, an enzyme abundant in inflamed synovium.
+	- 70% sensitive, >95% specific for RA
+- **ANA** (antinuclear antibodies)
+	- 100% sensitive for SLE but poor specificity
+	- **ANA +ve diseases**
+		- SLE
+		- Sjogren's
+		- Systemic sclerosis
+		- Rheumatoid arthritis
+- **Complement C3**
+	- Active SLE $\rightarrow\;\;\downarrow$ C3  (due to consumption of C3
+	 by immune complexes)
+
+## Seropositive vs Seronegative arthritis
+- Seropositive: RF+ inflammatory arthritis
+	- Rheumatoid arthritis
+	- SLE
+- Seronegative: RF- inflammatory arthritis
+	- Ankylosing spondylitis
+	- Reactive arthritis
+	- Psoriatic arthropathy
+
+## Osteoarthritis
+- Characterised by
+	- degeneration of articular cartilage
+	- subchondral osteosclerosis
+	- osteophyte formation at joint margin
+	- enlargement of affected joint
+- Sites
+	- hips
+	- knees
+	- PIPs
+	- DIPs
+	- cervical and lumbar spine
+- Investigations:
+	- X-ray of affected joint: findings described above in characteristics
+	- MRI spine if spine OA + suspected root compression / spinal stenosis 
+- Treatment
+	- Conservative:
+		- Wt loss
+		- Exercise
+		- NSAIDs
+		- Intraarticular glucocorticoids
+	- Surgical: if refractory
+		- Total joint replacement
+		- Osteotomy
+
+## Spondyloarthropathies
+- Asymmetrical oligoarthrites associated with HLA-B27 and typically involving
+ the spine
+	- Ankylosing spondylitis
+	- Reactive arthritis
+	- Psoriatic arthropathy
+	- Axial spondyloarthritis
+	- Entropathic spondyloarthritis (arthritis associated with IBD)
+- Common features:
+	- Asymmetric oligoarthritis
+	- Sacroilitis
+	- Enthesitis (inflammation where tendon attaches to bone)
+
+### Reactive arthritis
+- "Reactive" to certain infections e.g. _Chlamydia, Campylobacter
+ Salmonella, Shigella_.
+- **Reiter's syndrome**:
+	- Triad of _can't see, can't pee, can't bend the knee_
+		- **Conjunctivitis**
+		- **Urethritis**
+		- **Reactive arthritis**
+	- Due to _Chlamydia_
+
+\pagebreak
+
+# Neurology
+## Raised ICP
+- Normal ICP = **5-15 mmHg**
+
+### Causes
+- **ICSOL**
+	- Intracranial haemorrhage
+	- Tumours e.g. glioma
+	- Brain abscess
+- **Hydrocephalus**: blockade of CSF circulation
+	- Obstructive / non-communicating
+	- Communicating
+- **Cerebral oedema** e.g. meningoencephilitis
+- **Venous sinus obstruction** e.g. cerebral venous thrombosis
+
+### Features
+- **Headache**
+- **Vomiting**
+- **Diplopia / blurred vision**: Due to _6th nerve palsy_
+	- 6th nerve palsy due to
+		- stretching of the long, slender nerve
+		- compression against petrous temporal bone
+- **Papilloedema**
+- **Bradycardia**
+- **Hypertension**
+- **Depressed consciousness**
+
+### Management
+- According to cause:
+	- Mass lesion $\rightarrow$ surgical decompression
+	- Hydrocephalus $\rightarrow$ _ventriculoperitoneal shunt_ operation
+	- Oedema $\rightarrow$ glucocorticoids
+- Supportive:
+	- Head elevation
+	- Fluid balance
+	- BP control
+	- Diuretics: mannitol
+
+## Neurological emergencies
+- **Status epilepticus**
+- **Stroke** (if thrombo)
+- **Subarachnoid haemorrhage**
+- **Cord compression**
+- **GBS**
+- **Myasthenia gravis** (if bulbar and/or respiratory)
+
+\pagebreak
+
+## Status epilepticus
+### Definition
+Continuous or recurrent **seizures** for **$\ge$ 30 mins without gain of
+ consciousness** in between.
+
+### Management
+\includegraphics[width=.7\textwidth]{../assets/stat-epi.png}
+
+
+## All jerks root values
+- Biceps: C5
+- Supinator: C6
+- Triceps: C7
+- Finger (aka Hoffmann test): C8
+- Knee: L3, L4
+- Ankle: S1, S2
+- Plantar: S1 (technically not a jerk since it's a superficial reflex)
+
+\pagebreak
+
+## Subarachnoid haemorrhage
+### Causes
+- Ruptured berry aneurysm (85%)
+- Arterio-venous malformations
+
+### Features
+- Sudden severe "thunderclap" headache (often occipital)
+- Vomiting
+- High BP
+- Neck stiffness
+- May be loss of consciousness
+- Photophobia
+
+### Investigations
+- CT scan: hyperdense material in the subarachnoid space
+- Lumbar puncture: blood, xanthochromia
+
+### Management
+- **Nimodipine** 30-60mg IV for 5-14d, followed by 360mg oral for 7d
+	- _prevents delayed ischaemia_
+- Insertion of **Pt coils** into aneurysm
+- **Surgical clipping** of the neck of the aneurysm
+- Surgical removal if AVM
+
+## Subacute combined degeneration
+### Features
+- **Peripheral neuropathy**: due to **demyelination**
+- Signs of **dorsal column lesion**: **position and vibration sense lost**
+- Signs of **pyramidal lesion**:
+	- **plantar extensor**
+	- **knee jerk brisk**
+	- **ankle jerk absent**: as peripheral neuropathy affects longer nerves
+	 first, the afferent pathway for ankle jerk is damaged by the PN while
+	 the same for knee jerk is not. Combined with the corticospinal tract
+	 lesion, this makes knee jerks brisk and ankle jerks absent.
+- **Optic atrophy**:  death of retinal ganglion cell axons
+
+\pagebreak
+# Diabetes Mellitus
+## Mechanism of insulin secretion
+\includegraphics[width=.7\textwidth]{../assets/insulin-secr.jpg}
+
+## Incretin effect
+For the same glucose load applied orally and IV, the oral load stimulates
+ more insulin secretion (because oral load $\rightarrow$ release of gut
+ peptides GLP-1 and GIP $\rightarrow\;\;\uparrow$ insulin secretion).
+
+\includegraphics[width=.5\textwidth]{../assets/incretin.png}
+
+
+
+## Diabetic ketoacidosis (DKA)
+- **Medical emergency**
+- Cause of death
+	- Children: cerebral oedema
+	- Adults:
+		- **Hypokalaemia**
+		- ARDS
+		- Comorbidities: acute MI, sepsis, pneumonia
+- **Cardinal biochemical features**
+	- Hyperglycaemia $\rightarrow$ osmotic diuresis $\rightarrow$ dehydration,
+	 dyselectrolytaemia
+	- Hyperketonaemia:
+		- Insulin deficiency + elevated catecholamines $\rightarrow$
+		 unrestrained lipolysis to make FFA $\rightarrow$ hepatic
+		 ketogenesis
+	- Metabolic acidosis
+
+### Clinical features
+- **Symptoms**
+	- Polyuria, thirst
+	- Weakness
+	- Nausea, vomiting
+	- Abdominal pain
+	- Blurred vision
+- **Signs**
+	- Dehydration
+	- Hypotension
+	- Tachycardia
+	- Air hunger / Kussmaul breathing (deep and sighing breathing)
+	- Acetone breath
+	- Delirium, drowsiness, coma
+
+### Management
+- **Establish IV access**
+- **Volume replacement: 0.9% NaCl **
+	- If systolic BP $\ge$ 90mmHg: 1L over 1h
+	- Else: $\frac{1}{2}$L over 15mins $\rightarrow$ reassess.
+	 If BP still < 90mmHg, repeat.
+- **Insulin therapy**: **IV** 0.1 U/kg/h
+	- Corrects hyperglycaemia & acidosis
+- **Monitor**
+	- Every 1h: 
+		- capillary blood glucose and ketone
+		- vitals: pulse, BP, resp rate, O$_2$ sat, urine output
+	- Every 2h: Venous HCO$_3^{-}$ and K$^+$
+	- Every 4h: Serum electrolytes
+- If K$^+$ is low, 40mmol/L KCl with normal saline
+
+## Hypoglycaemia
+### Features
+- **Autonomic**
+	- Sweating
+	- Trembling
+	- Palpitations
+- **Neuroglycopoenic**
+	- Delirium
+	- Drowsiness
+	- Speech difficulty
+	- Incoordination
+
+### Management
+\includegraphics[width=.7\textwidth]{../assets/hypogly.png}
+
+- Oral fast-acting carbohydrate (10-15g) e.g. glucose drink / confectionery
+ / honey to buccal mucosa
+- Repeat capillary glucose measurement 10-15mins later
+	- If still hypo, repeat upto 3 cycles
+	- Still hypo after 3 cycles $\rightarrow$ glucagon 1mg IM
+
+\pagebreak
+
+## Insulin therapy
+### Indications
+- Type I DM
+- Type II DM not controlled by OHA
+- DIP / GDM
+- DKA
+- Hyperkalaemia
+
+### Preparations
+- **Rapid-acting** (rapid=LAG-less)
+	- Lispro
+	- Aspart
+	- Glulisine
+- **Short-acting:** soluble/regular insulin
+- **Intermediate-acting:** Isophane (I for I)
+- **Long-acting**
+	- Glargine (gLARGE-in)
+	- Detemir
+Route of administration: **subcutaneous**
+
+## Oral Hypoglycaemic Agents
+- **Biguanides**: Metformin
+	- Insulin _sensitiser_
+	- **Mechanism of action**
+		- $\downarrow$ hepatic glucose production (gluconeogenesis and
+		 glycogenolysis)
+		- $\uparrow$ gut glucose uptake & utilisation
+		- weak inhibitor of mitochondrial respiration $\rightarrow\;$
+		 $\uparrow$ AMP, $\downarrow$ ATP $\rightarrow\;\;\uparrow$
+		  glucose uptake utilisation etc.
+	- **Side effects profile**
+		- Weight neutral
+		- Non-hypoglycaemic
+		- _Lactic acidosis_
+- **Sulphonylureas**: Glibenclamide, Gliclazide, Glimepiride
+	- Insulin _secretagogue_
+	- **Mechanism of action:** Block K$^+$ channel in $\beta$-cells
+	 $\rightarrow\;\;\uparrow$ insulin secretion 
+	- **Side effects profile**
+		- Wt gain
+		- Hypoglycaemia
+- **$\alpha$-glucosidase inhibitors:** Acarbose
+	- **Mechanism of action**: delay absorption of carbs
+	- **Side effects profile**
+		- Non-hypoglycaemic
+		- Flatulence
+		- Bloating
+		- Diarrhoea
+- **Incretin-based therapies:**
+	- **DPP-4 inhibitors:** Gliptins
+		- **MoA**
+			- DPP-4: breaks down GLP-1 & GIP $\rightarrow$ inhibit incretin
+			 effect
+	- **GLP-1 receptor agonists:** Exenatide, liraglutide 
+- **Thiazolidinediones:** Pioglitazone
+	- **Mechanism of action**
+		- PPAR-$\gamma$ agonist $\rightarrow$ enhance action of insulin
+	- **Side effects profile**
+		- Non-hypoglycaemic
+		- Wt gain (increase fat cells)
+- **SGLT-2 inhibitors:** empagliflozin, dapagliflozin
+	- **MoA:** inhibit reabsorption of glucose in renal tubules $\rightarrow$
+	 25% of filtered glucose excreted
+	- Resulting glycosuria can lead to genital fungal infections
+	- Empagliflozin $\rightarrow$ 35% reduced mortality in heart failure
+	
+\pagebreak
+
+## Diabetic retinopathy
+\includegraphics[width=.8\textwidth]{../assets/diabetic-retino.png}
+
+\pagebreak
+
+# Gastrointestinal diseases
+## Weight loss
+### Causes
+- **Endocrine**
+	- DM (more in type I)
+	- Thyrotoxicosis
+	- Addison's
+- **GI**
+	- Any cause of dysphagia e.g.
+		- Stroke
+		- MS
+		- Ca oesophagus
+		- Achalasia cardia
+		- Plummer-Vinson syndrome (oesophageal webs+IDA)
+	- Malabsorption syndrome
+		- IBD
+		- Chronic pancreatitis (due to enzyme insufficiency)
+		- Coeliac disease
+- **Malignancies**
+- **Chronic infection**
+	- TB
+	- AIDS
+- **Psychological**
+	- Depression
+	- Anorexia nervosa
+	- Bulimia nervosa
+	- Alcoholism
+
+
+# Haematology
+## Chronic myeloid leukaemia (CML)
+Defining characteristic: **Philadelphia chromosome**
+
+- Shortened **chr22** by _reciprocal translocation_ with **chr9**
+- Results in **BCR-ABL fusion gene**
+- BCR-ABL codes for a **tyrosine kinase** which influences cell
+ proliferation and survival
+
+### Features
+- Wt loss
+- Lethargy
+- Abdominal discomfort
+- Splenomegaly
+- Hepatomegaly
+
+### Phases
+- Chronic
+- Accelerated
+- Blastic crisis
+
+### Investigations
+- **CBC:** anaemia, leucocytosis
+- **PBF:**
+	- Full range of granulocytic precursors, from _myeloblasts_ to _mature
+ neutrophils_. 
+ 	- Predominant: neutrophils and myelocytes.
+ 	- Myeloblasts < 10%.
+- **Bone marrow examination: **
+	- Hypercellular marrow
+	- $\uparrow$ M/E ratio
+	- $\downarrow$ erythrpoiesis
+	- $\uparrow$ leucopoiesis
+- **Chromosome analysis** to detect Ph chromosome
+
+### Management
+#### Chronic phase
+- **1st line: Tyrosine kinase inhibitors (TKIs):**
+	- **Imatinib**
+	- **Dasatinib**
+	- **Nilotinib**
+	- normalise blood count within a month, complete cytogenetic response
+	  (disappearance of Ph chr) within 6 months in 90% patients. Resample
+	  bone marrow at 6mo to confirm. Thereafter monitor 3-monthly by RT-PCR
+	  for BCR-ABL mRNA transcripts.
+- **Allogeneic HSC transplant:** if TKI fails
+- **Hydroxycarbamide**
+- **Interferon:** in pregnancy
+
+\pagebreak
+
+# Nutritional diseases
+## Vitamins
+### B$_1$ (thiamin) deficiency
+#### Functions of thiamin
+- Cofactor in different pathways of aerobic metabolism of glucose
+	- decarboxylation of pyruvate to acetyl-coA (so bridge between glycolysis
+	 and Krebs)
+	- decarboxylation of $\alpha$-ketoglutarate to succinate in Krebs
+
+#### Features
+- For its pivotal role in aerobic glucose meta, the largest blow is dealt
+ to the tissues most dependent on glucose - the **brain** and the **heart**.
+- **Beri-beri**
+	- **Dry:** Neurological beri-beri
+		- Peripheral neuropathy
+		- Wrist/foot drop
+		- **Korsakoff's psychosis**
+		- **Wernicke's encephalopathy**
+	- **Wet:** Cardiac beri-beri (wet as it causes generalised oedema)
+		- Biventricular failure
+		- Generalised oedema
+		- Pulmonary oedema
+
+#### Treatment
+- Wet and Wernicke's should be treated by IV vit-B and C mixture
+- Korsakoff's: irreversible, nonresponsive to thiamin
+	
+
+### B$_{12}$ deficiency
+#### Functions of B$_{12}$
+- Recycles folate $\rightarrow$ essential for **cell division**
+ (especially in RBC)
+- **Myelination**
+
+#### Features
+- **Megaloblastic anaemia**
+- **Glossitis**
+- **Neurologic features**
+	- Peripheral neuropathy
+	- Autonomic neuropathy
+	- Optic atropy
+	- Subacute combined degeneration of spinal cord
+
+#### Treatment
+- Vit-B$_{12}$ IM
+- If combined folate and B$_{12}$ deficiency, only folate should not be
+ given without B$_{12}$, as B$_{12}$ gets used up in folate recycling,
+ deteriorating the B$_{12}$ deficiency symptoms. Always give both together.
